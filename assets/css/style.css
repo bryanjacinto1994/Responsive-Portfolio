@@ -1,0 +1,179 @@
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 500px;
+    color: #777777;
+    padding: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.navigation{
+    
+    margin: 0 auto; 
+    background-color: white;
+}
+
+.main-footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #666666;
+    padding: 30px;
+    position: relative;
+    top: 210px;   
+}
+
+
+
+.name{
+    font-size: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 230px;
+    padding: 20px;
+    position: relative;
+    left: 430px;
+}
+
+.tab{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    color: #777777;
+    bottom: 50px;
+    right: 420px;
+
+}
+
+
+
+#about{
+    color: #4aaaa5;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+p{
+    margin: 10px;
+}
+
+img{
+    float: left;
+    margin: 10px;
+}
+
+#Name,
+#Email,
+#Message {
+    width: 960px;
+}
+
+#Message{
+    height: 200px;
+}
+
+.wrapper-1{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 950px;
+    color: #777777;
+    padding: 40px;
+    position: relative;
+    bottom: 0px;
+}
+
+.main-footer-1{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #666666;
+    padding: 30px;
+    position: relative;
+    top: 60px;   
+}
+
+.picture1 {
+    position: relative;
+}
+
+.text-1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    top: 180px;
+    text-align: center;
+    left: 10px;
+    width: 250px;
+    color: white;
+}
+
+.picture2 {
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+}
+
+.text-2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 250px;
+    left: 280px;
+    top: 180px;
+    text-align: center;
+    color: white;
+}
+
+
+   
+.text-3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    left: 550px;
+    width: 250px;
+    top: 180px;
+    text-align: center;
+    z-index: 1;
+}
+
+.picture3 {
+    position: relative;
+    top: 290px;
+    right: 540px;
+} 
+
+.text-4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    color: white;
+    left: 10px;
+    top: 450px;
+}
+
+.picture4 {
+    position: relative;
+    top: 20px;
+    left: 290px;
+}
+
+.text-5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    color: white;
+    top: 450px;
+    left: 280px;
+
+    
+}
+
+.picture5 {
+    position: relative;
+    right: 270px;
+    top: 310px;
+}
