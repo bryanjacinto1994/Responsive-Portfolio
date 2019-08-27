@@ -1,18 +1,29 @@
 .wrapper{
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
     height: 500px;
     color: #777777;
-    padding: 40px;
+    padding: 20px;
     position: relative;
-    top: 50px;
+    top: 100px;
+    
+    clear: both;
 }
 
+.main-body{
+    height: 100%;
+    height: auto;
+}
 .navigation{
+    position: relative;
     
-    margin: 0 auto; 
     background-color: white;
+    width: 100%;
+    width: 960px;
+    margin: 0 auto;
+    
 }
 
 .main-footer{
@@ -21,9 +32,33 @@
     background-color: #666666;
     padding: 30px;
     position: relative;
-    top: 210px;   
+    top: 280px;  
+    width: 96%%;
+    
 }
 
+.main-footer-1{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #666666;
+    padding: 30px;
+    position: relative;
+    top: 240px;  
+    width: 96%;
+    
+}
+
+.main-footer-2{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #666666;
+    padding: 30px;
+    position: relative;
+    bottom: 10px;
+    width: 96%;
+    
+    
+}
 
 
 .name{
@@ -31,9 +66,11 @@
     background-color: #4aaaa5;
     color: white;
     width: 230px;
-    padding: 20px;
+    padding: 0px;
     position: relative;
-    left: 430px;
+    
+    
+    
 }
 
 .tab{
@@ -41,8 +78,8 @@
     font-size: 20px;
     position: relative;
     color: #777777;
-    bottom: 50px;
-    right: 420px;
+    bottom: 30px;
+    
 
 }
 
@@ -86,94 +123,88 @@ img{
     bottom: 0px;
 }
 
-.main-footer-1{
-    margin: 0 auto;
+#picturetext1 {
+    width: 230px;
+    padding: 10px;
     text-align: center;
-    background-color: #666666;
-    padding: 30px;
-    position: relative;
-    top: 60px;   
-}
-
-.picture1 {
-    position: relative;
-}
-
-.text-1 {
     position: absolute;
-    background-color: #4aaaa5;
-    top: 180px;
+    left: 30px;
+    top: 300px;
+}
+
+#picturetext2 {
+    width: 230px;
+    padding: 10px;
     text-align: center;
-    left: 10px;
-    width: 250px;
-    color: white;
-}
-
-.picture2 {
-    position: relative;
-    bottom: 0px;
-    left: 20px;
-}
-
-.text-2 {
     position: absolute;
-    background-color: #4aaaa5;
-    width: 250px;
-    left: 280px;
-    top: 180px;
-    text-align: center;
-    color: white;
-}
-
-
-   
-.text-3 {
-    position: absolute;
-    background-color: #4aaaa5;
-    color: white;
-    left: 550px;
-    width: 250px;
-    top: 180px;
-    text-align: center;
-    z-index: 1;
-}
-
-.picture3 {
-    position: relative;
-    top: 290px;
-    right: 540px;
-} 
-
-.text-4 {
-    position: absolute;
-    background-color: #4aaaa5;
-    width: 250px;
-    text-align: center;
-    color: white;
-    left: 10px;
-    top: 450px;
-}
-
-.picture4 {
-    position: relative;
-    top: 20px;
-    left: 290px;
-}
-
-.text-5 {
-    position: absolute;
-    background-color: #4aaaa5;
-    width: 250px;
-    text-align: center;
-    color: white;
-    top: 450px;
-    left: 280px;
-
+    right: 450px;
+    top: 300px;
     
 }
 
-.picture5 {
+#picturetext3 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 30px;
+    top: 600px;
+}
+
+#picturetext4 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    width: 230px;
+    position: absolute;
+    text-align: center;
+    left: 300px;
+    top: 600px;
+}
+
+#picture3 {
+    position: relative;
+    right: 540px;
+    top:300px;
+}
+
+#picture4 {
+    position: relative;
+    top: 30px;
+    left: 270px;
+}
+
+#picture5 {
     position: relative;
     right: 270px;
-    top: 310px;
+    top: 330px;
+}
+
+#picturetext5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 230px;
+    padding: 10px;
+    left: 30px;
+    top: 900px;
+}
+@media only screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+    .wrapper,
+    .navigation {
+        max-width: 100%;
+    
+
+    }
+}
+
+@media screen and (max-width: 640px){
+        
 }
