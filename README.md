@@ -1,12 +1,14 @@
 # HW-Wireframe
 
 ## Images
-
-![Site](assets/images/about.png)
+980px : 
+![Site](980.png)
 <br>
-![Site](assets/images/contact.png)
+768px:
+![Site](768.png)
 <br>
-![Site](assets/images/portfolio.png)
+640px:
+![Site](640.png)
 
 <hr>
 
@@ -22,226 +24,190 @@
 
 ## Summary
 
-Using Visual Studio Codes, I've created three different html files : About me, Portfolio, and Contact by also using the same stylesheet css for all three of them. The most challenging part of this was trying to get the boxes to align in the position I want them to be in. By doing so, I have made different div classes for each containers and sub-containers and via css to position those containers to "relative" so they can be where I want them to be.
-
-The "About Me" section includes my profile picture to represent myself and a summary explaining what I proudly do in life. 
-
-The "Contact" section includes: Name, Email, and Message; along with text boxes by using the forms commands to allow users to type in their information.
-
-The "Portfolio" includes different pictures that represents me, myself, and I for viewers to see my journey through my photos.
+Using CSS via Visual Studio Codes, I was able to use media queries to appoint the exact dimensions I want them to for my About Me section. This assignment was to have mobile responsiveness for specific pixels : 980px, 768px, and 640px. Making adjustments with media query via css, I was able to fit the About Me page to the desired dimensions fitted for Laptop, Tablets, and mobile devices.
 
 <hr>
 
 ## Code Snippet
 
-About me:
+
 ```html
 
- <div class="Navigation">
-        <div class="container">
-            <div class="Name">
-                <h1>Bryan Jacinto</h1>
-            </div>
-            <nav>
-
-                <a style="color: #777777" href="index.html">About</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="portfolio.html">Portfolio</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="contact.html">Contact</a>
-
-            </nav>
-        </div>
-    </div>
-<
-    <div class="container" style="margin-top: 120px; padding: 10px;">
-
-        <h1 id="about">About Me</h1>
-
-        <hr>
-        <br>
-
-        <img id="image" height="200px"
-            src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/59534637_2490535307623465_1942523376228630528_n.jpg?_nc_cat=100&_nc_oc=AQmj8gXNl7039ppF5Lck7CsMUM1Xq-FcjH--nQQxpWhHfcS6Arl6tfDAv1Y_24GVq_8fRyY3v1yOIfHdGIvhDJ9N&_nc_ht=scontent-sjc3-1.xx&oh=08845664e21356d7591879071d69f87a&oe=5DCCDBA5"
-            alt="Picture">
-
-        <p>
-            Hey this is Bryan! I have been working as a personal trainer for four years and have served in the
-            United
-            States
-            Army. Over the past years, I have also been studying to be a Nurse but I realized that Nursing is not my
-            passion. Waking up one day finally realizing that I do not want to wake up every morning going to a
-            Nursing
-            job
-            being unhappy. Finally, I stood my ground and made a huge change in my education and career. I finally
-            realized
-            that I am more happy in being in the Tech field rather than in the medical field. For some reason,
-            everything
-            there is to do with technologies, goes straight to my head. Think of it sort of like as a "photographic
-            memory"
-            where I memorized stuff easily when it comes to numbers and codes. I may not look the part but thats
-            when I
-            knew
-            what career path is rightfor me. Please browse through my "Portfolio" and take a look at my journey.
-            Feel
-            free
-            to contact me as well on the "contact" tab located in the top right corner if you have any other
-            questions.
-            Have
-            a great day!
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a arcu urna. Sed in leo lacinia elit
-            euismod ultricies at et eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum
-            vitae facilisis risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Fusce finibus accumsan massa, rhoncus pellentesque lectus dapibus sed. Vestibulum dictum,
-            ligula quis suscipit facilisis, sapien ligula molestie dui, quis consequat ligula nibh in urna. Aenean
-            quis consequat enim. Quisque in risus quis eros condimentum tincidunt quis nec orci. Etiam finibus et
-            metus non semper. Nulla tempus enim sit amet est sodales, sit amet egestas magna cursus. Nunc urna ex,
-            viverra ut ipsum ac, iaculis tincidunt enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Curabitur fermentum mi eu aliquam facilisis. Donec pharetra, lectus vel consequat scelerisque, massa
-            nisl tristique elit, id iaculis ante tellus quis nisl. Vivamus ornare massa ipsum.
-        </p>
-    </div>
-
-
-
-<div class="wrapper">
-    <div class="push"></div>   
-    </div>
-<footer class="footer">
-    Copyright@
-</footer>
-```
-Contact:
-```html
-  <div class="Navigation">
-        <div class="container">
-            <div class="Name">
-                <h1>Bryan Jacinto</h1>
-            </div>
-            <nav>
-
-                <a style="color: #777777" href="index.html">About</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="portfolio.html">Portfolio</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="contact.html">Contact</a>
-
-            </nav>
-        </div>
-    </div>
-<
-    <div class="container" style="margin-top: 120px; padding: 10px;">
-
-        
-        
-
-        <div class="wrapper" style="height: 600px;">
-
-            <h1 id="about">Contact</h1>
-
-            <hr>
-            <br>
-
-           <form action="/action_page.php"> 
-           
-            Name<br>
-            <input type="text" id="Name" name="Name">
-            <br>
-            <br>
-            Email<br> 
-            <input type="text" id="Email" name="Email">
-            <br>
-            <br>
-            Message<br>
-            <input type="text" id="Message" name="Message">
-            <br><br><br>
-            <input type="Submit" id="Sumbit" value="Submit">
-            </form>
-        </div>
-    </div>
-
-
-
-<div class="wrapper">
-    <div class="push"></div>   
-    </div>
-<footer class="footer">
-    Copyright@
-</footer>
-```
-Portfolio:
-```html
-<div class="Navigation">
-        <div class="container">
-            <div class="Name">
-                <h1>Bryan Jacinto</h1>
-            </div>
-            <nav>
-
-                <a style="color: #777777" href="index.html">About</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="portfolio.html">Portfolio</a>
-                &nbsp;&nbsp;&nbsp;
-                <a style="color: #777777" href="contact.html">Contact</a>
-
-            </nav>
-        </div>
-    </div>
-    < <div class="container" style="margin-top: 120px; padding: 10px; height: 1050px;">
-
-        <h1 id="about">Portfolio</h1>
-
-        <hr>
-        <br>
-
-        <div class="picture1">
-            <img src="assets/images/Military.jpg" alt="military" style="height:250px; width: 250px;">
-            <div class="text-1">
-                <h3>Military</h3>
-            </div>
-
-        </div>
-
-        <div class="picture2">
-            <img src="assets/images/Fitness.jpg" alt="fitness" style="height: 250px; width: 250px;">
-            <div class="text-2">
-                <h3>Fitness</h3>
-            </div>
-        </div>
+ body {
+    background-image: url(https://jooinn.com/images/background-1.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #777777;
+    margin: 0 auto;
     
+    
+}
 
-    <div class="picture3">
-        <img src="assets/images/Hobbies.jpg" alt="hobbies" style="height: 250px; width: 250px;">
-        <div class="text-3">
-            <h3>Hobbies</h3>
-        </div>
-    </div>
-
-    <div class="picture4">
-        <img src="assets/images/Nature.jpg" alt="nature" style="height: 250px; width: 250px;">
-
-        <div class="text-4">
-            <h3>Nature</h3>
-        </div>
-    </div>
-
-    <div class="picture5">
-        <img src="assets/images/Travel.jpg" alt="travel" style="height: 250px; width: 250px;">
-        <div class="text-5">
-            <h3>Travel</h3>
-        </div>
-    </div>
-            
-        </div>
+.Navigation {
+    background-color: white;
+    width: 960px;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
 
 
+}
 
-        <div class="wrapper">
-            <div class="push"></div>
-        </div>
-        <footer class="footer">
-            Copyright@
-        </footer>
+.container {
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+}
+
+
+.Name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    float: left;
+}
+
+nav {
+    color: #777777;
+    font-size: 18px;
+    float: right;
+    margin-top: 40px;
+}
+
+#image {
+    float: left;
+    margin: 10px;
+    
+}
+
+.footer {
+    
+    background: rgb(169, 169, 169);
+    padding: 20px;
+    text-align: center;
+    color: darkslategray
+}
+
+html, body {
+    height: 60%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
+}
+
+#Name,
+#id,
+#Email,
+#Message {
+    width: 960px;
+}
+
+#Message {
+    height: 250px;
+}
+
+.text-1 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.text-2 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.picture3 {
+    position: relative;
+    left: 350px;
+    bottom: 625px;
+}
+
+.text-3 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.picture4 {
+    position: relative;
+    left: 350px;
+    bottom: 625px;
+}
+
+.text-4 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.picture5 {
+    position: relative;
+    bottom: 625px;
+}
+
+.text-5 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+@media screen and (max-width:980px){
+.container {
+    width: 90%;
+    margin-left: 40px;
+    }
+.wrapper {
+    width: 20%;
+}
+}
+/* What left to do is to try to fit the contact and portfolio in place. Also needs to make width form smaller. About me section is working fine*/
+@media screen and (max-width: 768){
+    .container{
+        overflow: auto;
+
+    }
+} 
+/* What left to do is to try to fit the contact and portfolio in place. Another thing is to try to get the boxes to stack on top of each other in portfolio and the Navigation tab links to be placed under the "Name". About me section is working fine*/
+
+@media screen and (max-width:640px){
+    .container {
+        width: 80%
+    }
+
+    #about {
+        padding: 20px;
+        float: none;
+    }
+
+    
+   
+}
 ```
 ## Author Links
 Linkedin: https://www.linkedin.com/in/bryan-jacinto-100438aa/
