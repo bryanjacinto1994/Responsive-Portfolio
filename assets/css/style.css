@@ -1,218 +1,144 @@
-.wrapper{
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    height: 500px;
+body {
+    background-image: url(https://jooinn.com/images/background-1.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
     color: #777777;
-    padding: 20px;
-    position: relative;
-    top: 100px;
+    margin: 0 auto;
     
-    clear: both;
+    
 }
 
-.main-body{
-    height: 100%;
-    height: auto;
-}
-.navigation{
-    position: relative;
-    
+.Navigation {
     background-color: white;
-    width: 100%;
     width: 960px;
+    position: fixed;
+    width: 100%;
     margin: 0 auto;
-    
+
+
 }
 
-.main-footer{
+.container {
+    width: 960px;
+    background: white;
     margin: 0 auto;
-    text-align: center;
-    background-color: #666666;
-    padding: 30px;
-    position: relative;
-    top: 280px;  
-    width: 96%%;
-    
-}
-
-.main-footer-1{
-    margin: 0 auto;
-    text-align: center;
-    background-color: #666666;
-    padding: 30px;
-    position: relative;
-    top: 240px;  
-    width: 96%;
-    
-}
-
-.main-footer-2{
-    margin: 0 auto;
-    text-align: center;
-    background-color: #666666;
-    padding: 30px;
-    position: relative;
-    bottom: 10px;
-    width: 96%;
-    
-    
 }
 
 
-.name{
-    font-size: 40px;
+.Name {
     background-color: #4aaaa5;
     color: white;
-    width: 230px;
-    padding: 0px;
-    position: relative;
-    
-    
-    
+    width: 200px;
+    padding: 5px;
+    float: left;
 }
 
-.tab{
-    float: right;
-    font-size: 20px;
-    position: relative;
+nav {
     color: #777777;
-    bottom: 30px;
-    
-
+    font-size: 18px;
+    float: right;
+    margin-top: 40px;
 }
 
-
-
-#about{
-    color: #4aaaa5;
-}
-
-body{
-    background-color: #dddddd;
-}
-
-p{
-    margin: 10px;
-}
-
-img{
+#image {
     float: left;
     margin: 10px;
+    
+}
+
+.footer {
+    
+    background: rgb(169, 169, 169);
+    padding: 20px;
+    text-align: center;
+    color: darkslategray
+}
+
+html, body {
+    height: 60%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
 }
 
 #Name,
+#id,
 #Email,
 #Message {
     width: 960px;
 }
 
-#Message{
-    height: 200px;
+#Message {
+    height: 250px;
 }
 
-.wrapper-1{
-    width: 960px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    height: 950px;
-    color: #777777;
-    padding: 40px;
+.text-1 {
     position: relative;
-    bottom: 0px;
-}
-
-#picturetext1 {
-    width: 230px;
-    padding: 10px;
-    text-align: center;
-    position: absolute;
-    left: 30px;
-    top: 300px;
-}
-
-#picturetext2 {
-    width: 230px;
-    padding: 10px;
-    text-align: center;
-    position: absolute;
-    right: 450px;
-    top: 300px;
-    
-}
-
-#picturetext3 {
-    background-color: #4aaaa5;
-    color: white;
-    width: 230px;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    left: 30px;
-    top: 600px;
-}
-
-#picturetext4 {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 10px;
-    width: 230px;
-    position: absolute;
-    text-align: center;
-    left: 300px;
-    top: 600px;
-}
-
-#picture3 {
-    position: relative;
-    right: 540px;
-    top:300px;
-}
-
-#picture4 {
-    position: relative;
-    top: 30px;
-    left: 270px;
-}
-
-#picture5 {
-    position: relative;
-    right: 270px;
-    top: 330px;
-}
-
-#picturetext5 {
-    position: absolute;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 230px;
-    padding: 10px;
-    left: 30px;
-    top: 900px;
-}
-@media only screen and (max-width: 980px){
-    .navigation {
-       
-    }
+    width: 250px;
+    bottom: 80px;
 }
 
-@media screen and (max-width: 768px){
-    .wrapper,
-    .navigation {
-        max-width: 100%;
-    }
-
-    
-
-
-    
+.text-2 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
 }
 
-@media screen and (max-width: 640px){
-    .navigation {
-        position: static;
-    }
-        
+.picture3 {
+    position: relative;
+    left: 350px;
+    bottom: 625px;
 }
+
+.text-3 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.picture4 {
+    position: relative;
+    left: 350px;
+    bottom: 625px;
+}
+
+.text-4 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
+.picture5 {
+    position: relative;
+    bottom: 625px;
+}
+
+.text-5 {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 250px;
+    bottom: 80px;
+}
+
