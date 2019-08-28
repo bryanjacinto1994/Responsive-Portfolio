@@ -144,13 +144,32 @@ html, body {
 
 @media screen and (max-width:980px){
 .container {
-    width: 70%;
+    width: 90%;
     margin-left: 40px;
     }
-a {
-    
-   
-    
-   
+.wrapper {
+    width: 20%;
 }
+}
+/* What left to do is to try to fit the contact and portfolio in place. Also needs to make width form smaller. About me section is working fine*/
+@media screen and (max-width: 768){
+    .container{
+        overflow: auto;
+
+    }
+} 
+/* What left to do is to try to fit the contact and portfolio in place. Another thing is to try to get the boxes to stack on top of each other in portfolio and the Navigation tab links to be placed under the "Name". About me section is working fine*/
+
+@media screen and (max-width:640px){
+    .container {
+        width: 80%
+    }
+
+    #about {
+        padding: 20px;
+        float: none;
+    }
+
+    
+   
 }
